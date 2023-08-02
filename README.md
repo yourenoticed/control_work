@@ -39,7 +39,7 @@ Next I need to create the resulting array using "size" and I will need a variabl
 
 ![filling array](fill_array.png)
 
-The block scheme is almost finished, the only thing left is to return "result" and end the algorythm.
+The block scheme is almost finished, the only thing left is to return "result" and end the algorithm.
 
 ![last steps](finish_algo.png)
 
@@ -52,3 +52,5 @@ The result block-scheme looks like this:
 This is what I'm basically doing now and you see it all. I don't see a point to explain what's happening here.
 
 ### Writing a program
+
+Since I already have a block-scheme it will be really easy to write it. All you need to do is simply implement block-scheme into the language you use.
