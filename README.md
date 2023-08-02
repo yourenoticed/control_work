@@ -47,9 +47,9 @@ The result block-scheme looks like this:
 
 ![block-scheme](pics/algo_block_scheme.png)
 
-### Creating README
+### Creating README and using git during process
 
-This is what I'm basically doing now and you see it all. I don't see a point to explain what's happening here.
+This is what I'm basically doing now and you can see it all. I don't see a point to explain what's happening here.
 
 ### Writing a program
 
