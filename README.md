@@ -31,7 +31,7 @@ It's said to draw a block-scheme first, so let's get to draw.io and make it.
 
 ![getting the array](pics/input.png)
 
-The next step is to find out the size of the array we're going to return. For that I need to make a new variable **size** = 0 and to go through the entire **elements** array using for loop (from 0 to elements.Length with increment) and increment **size** every time the element length is less than or equal to three.
+The next step is to find out the size of the array we're going to return. For that I need to make a new variable **size** = 0 and go through the entire **elements** array using for loop (from 0 to elements.Length with increment) and increment **size** every time the element length is less than or equal to three.
 
 ![finding size](pics/find_amount_of_elms.png)
 
@@ -55,7 +55,7 @@ This is what I'm basically doing now and you can see it all. I don't see a point
 
 Since I already have a block-scheme it will be really easy to write it. All you need to do is simply implement block-scheme into the language you use.
 
-I'm going to create a function called **ElementsWithLengthLessThan4** with a parameter string array **elements**.
+Since we were studying c# on the course, I'll use c-sharp. I'm going to create a function called **ElementsWithLengthLessThan4** with a parameter string array **elements**.
 
 ![creating function](pics/create_func.png)
 
@@ -63,13 +63,13 @@ Then I find the size of the resulting array. Instead of for loop I'm using forea
 
 ![coding find size](pics/code_size_of_arr.png)
 
-Afterwards, I create the resulting array and basically do the same thing I've done in the loop above, except I don't increment **size** but give a **result[index]** the value of a needed element. And then I return **result**.
+Afterwards, I create the resulting array and basically do the same thing I've done in the loop above, except I don't increment **size** but give a **result[index]** the value of a needed element and increment index (well, **i** in this case). And then I return **result**.
 
 ![coding fill array](pics/code_fill_array.png)
 
 ## Result
 
-It was an easy task. The only thing that made it more difficult was that I had had to track it all and make a report which took quite some time.
+It was an easy task. The only thing that made it more difficult was that I had had to track it all and make a report which had taken quite some time.
 
 At the end I have this code:
 
