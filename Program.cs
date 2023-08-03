@@ -24,7 +24,7 @@
     return result;
 }
 
-string[] arr = {"Hello", "2", "world", ":-)"};
+string[] arr = {"1234", "1567", "-2", "computer science"};
 string[] result = ElementsWithLengthLessThan4(arr);
 foreach (string element in result)
 {

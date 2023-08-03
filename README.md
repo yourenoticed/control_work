@@ -75,6 +75,6 @@ At the end I have this code:
 
 ![result code](pics/result_code.png)
 
-As you can see, below I created an array "arr" and another one, which is simply a filtered "arr". Then I print out the entire "result" array and it gives me exactly what I need.
+As you can see, below I created an array **arr** and another one, which is simply a filtered **arr**. Then I print out the entire **result** array and it gives me exactly what I need.
 
 The code is in this repository, feel free to look at it and mess with it :^)
