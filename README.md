@@ -31,7 +31,7 @@ It's said to draw a block-scheme first, so let's get to draw.io and make it.
 
 ![getting the array](pics/input.png)
 
-The next step is to find out the size of the array we're going to return. For that I need make a new variable **size** = 0 and to go through the entire **elements** array using for loop (from 0 to elements.Length with increment) and increment **size** every time the element length is less than or equal to three.
+The next step is to find out the size of the array we're going to return. For that I need to make a new variable **size** = 0 and to go through the entire **elements** array using for loop (from 0 to elements.Length with increment) and increment **size** every time the element length is less than or equal to three.
 
 ![finding size](pics/find_amount_of_elms.png)
 
